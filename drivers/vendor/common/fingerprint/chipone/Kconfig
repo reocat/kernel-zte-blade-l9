@@ -1,0 +1,15 @@
+#
+# chipone Fingerprint driver configuration
+#
+
+config PLATFORM_FINGERPRINT_CHIPONE
+       tristate "generic chipone fingerprint driver"
+       default n
+       help
+       add support for chipone fingerprint driver.
+
+config FP_PWR_MODE_REGULATOR_VDDCAMMOT
+       bool "chipone Fingerprint power regulator vddcammot"
+       default n
+       help
+       CHIPONE Fingerprint power regulator, default GPIO

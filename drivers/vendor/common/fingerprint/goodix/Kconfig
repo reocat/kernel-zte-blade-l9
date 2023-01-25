@@ -1,0 +1,15 @@
+#
+# Goodix Fingerprint driver configuration
+#
+
+config PLATFORM_FINGERPRINT_GOODIX
+       tristate "generic goodix fingerprint driver"
+       default n
+       help
+       add support for goodix fingerprint driver.
+
+config FP_PWR_MODE_REGULATOR_VDDCAMMOT
+       bool "goodix Fingerprint power regulator vddcammot"
+       default n
+       help
+       GOODIX Fingerprint power regulator, default GPIO

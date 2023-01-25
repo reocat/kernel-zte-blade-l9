@@ -1,0 +1,11 @@
+config SND_SOC_TFA98XX
+	bool "Support 8350 Goodix smartpa driver"
+
+config SND_SOC_TFA9873
+	bool "Support 8250 Goodix smartpa driver"
+
+config SND_SOC_TFA9873_SINGLE
+	bool "Support 8250 Goodix smartpa driver" 
+
+config SND_SOC_TFA98XX_SINGLE
+	bool "Support 8350 Goodix smartpa driver"
