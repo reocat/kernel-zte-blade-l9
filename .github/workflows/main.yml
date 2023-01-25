@@ -37,7 +37,7 @@ jobs:
         git config --global user.email "ng.ct_ml@tuta.io"
         git clone https://github.com/reocat/kernel-zte-blade-l9
         cd kern*bl*l9
-        make defconfig
-        make -j16 ARCH=armv7 CROSS_COMPILE=arm-linux-gnueabihf-
+        make -j16 ARCH="arm" defconfig
+        make -j16 ARCH="arm" CROSS_COMPILE=arm-linux-gnueabihf-
         cd ..
         mkdir release
