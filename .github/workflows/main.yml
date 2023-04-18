@@ -27,8 +27,8 @@ jobs:
         NAME: nyan
       with:
         arch: arm64
-        compiler: gcc/10
-        defconfig: 
+        compiler: clang/12
+        defconfig: nokia_defconfig
         image: Image.gz-dtb
     - name: Release build
       uses: appleboy/telegram-action@master
