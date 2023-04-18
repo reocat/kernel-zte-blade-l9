@@ -28,7 +28,7 @@ jobs:
       with:
         arch: arm64
         compiler: clang/12
-        defconfig: nokia_defconfig
+        defconfig: Nokia_defconfig
         image: Image.gz-dtb
     - name: Release build
       uses: appleboy/telegram-action@master
